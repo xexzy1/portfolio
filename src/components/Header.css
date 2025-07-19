@@ -1,0 +1,18 @@
+/* Styles for Header component */
+
+/* You can customize the Header styling here or move styles from App.css */
+
+.theme-toggle {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #001f54; /* dark blue for light mode */
+}
+
+/* Adjust button color in dark mode */
+body.dark .theme-toggle {
+  color: #ffffff;
+} 

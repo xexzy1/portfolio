@@ -1,0 +1,39 @@
+/* Styles for Contact component */ 
+
+.contact {
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-btn {
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: inherit;
+}
+
+/* Make sure anchor buttons inherit color instead of link blue */
+.contact .contact-btn {
+  color: inherit;
+}
+
+.contact-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+body.dark .contact-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+} 
